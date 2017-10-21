@@ -1,0 +1,133 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#signup {
+	background-color: white;
+	font-family: Arial;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	position: relative;
+}
+
+.field {
+	margin-top: 10px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: black;
+	font-size: 11pt;
+}
+
+.text {
+	font-weight: bold;
+}
+
+.invalidInputAlert {
+	display: none;
+	padding: 10px 5px;
+	background-color: #ec5632;
+	color: white;
+	margin-bottom: -2px;
+	font-weight: bold;
+	font-size: 10.5pt;
+	margin-bottom: -38px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	transition: margin .7s;
+}
+
+.open {
+	margin-bottom: -2px;
+}
+
+input {
+	width: 443px;
+	padding: 15px;
+	outline: none;
+	border: 1px solid rgba(163,163,163,0.5);
+	border-radius: 3px;
+	display: block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+input:focus {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+.logSigButton {
+	font-size: 12pt;
+	width: 445px;
+	padding: 15px;
+	margin-top: 10px;
+	background-color: #9acd00;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+	border: none;
+	box-sizing: unset;
+}
+
+.logSigButton:hover {
+	background-color: #8cbb00;
+	cursor: pointer;
+}
+
+.invalid {
+	box-shadow: 0px 0px 10px 0px rgba(236,86,50,0.5);
+	background-color: rgba(236,86,50,0.1);
+}
+
+.loginPopup {
+	width: 475px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	font-family: Arial;
+	margin-top: -146px;
+	transition: margin .7s;
+}
+
+.loginOpen {
+	margin-top: 0px;
+}
+
+.button {
+	padding: 5px 20px;
+	background-color: #9acd00;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 12pt;
+	border: none;
+	box-sizing: unset;
+}
+
+.button:hover {
+	background-color: #8cbb00;
+	cursor: pointer;
+}
+
+#login {
+	font-family: Arial;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wrongUsername {
+	display: none;
+}
